@@ -100,7 +100,7 @@ header nav .container a {
 /* BOUTON ***************/
 .btn {
     display: inline-block;
-    padding: 20px 30px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
     transition: background-color 1s, color 1s;
@@ -111,7 +111,7 @@ header nav .container a {
     background-color: #D98468;
     color: #26316A;
     margin-top: 20px;
-    font-size: 160%;
+    font-size: 150%;
     font-family: 'Barlow', sans-serif;
     font-weight: bolder;
     opacity: 90%;
@@ -120,9 +120,9 @@ header nav .container a {
 .btn-concept {
     background-color: #26316A;
     color: #D98468;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 160%;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 150%;
     font-family: 'Barlow', sans-serif;
     font-weight: bolder;
     opacity: 90%;
@@ -238,6 +238,12 @@ footer {
 
 .icon-rs:hover {
     color: #D98468;
+}
+
+/* PAGE CONTACT ***/
+.contactez-nous {
+    background-color: #26316A;
+    opacity: 50%;
 }
 
 /* MEDIA QUERIES ***/
