@@ -1,0 +1,214 @@
+/* INFOS DOC
+    - Document : Concept Store Tylte
+    - Version : 1.0.0
+    - Author : Coline
+*/
+
+/* COLORS 
+    - default body text #26316A (bleu)
+    - h1 #D98468 (terracotta) ou #26316A (bleu)
+    - h2 #26316A (bleu)
+    - h3 #26316A (bleu)
+
+    - button #D98468 (terracotta) ou #26316A (bleu)
+    - button:hover #D98468 (terracotta) ou #26316A (bleu)
+
+    - border : none 
+    - icons #26316A (bleu)
+*/
+
+/* FONTS
+    - Default : 'Sora', sans-serif
+    - Titres : 'Barlow', sans-serif & 'Barlow Semi Condensed', sans-serif
+*/
+
+/* CSS DIRECTORY
+    1. Global
+    2. Header
+    3. Le concept
+    4. La team
+    5. Contact
+*/
+
+/* GLOBAL *****************/
+html {
+    background-color: white;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+section {
+    padding: 0px 0 1px 0;
+}
+
+
+/* HEADER *****************/
+header {
+    background-image: linear-gradient(rgba(205, 209, 228, 0.3), rgba(205, 209, 228, 0.3)), url("/images/nos-espaces-header.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header nav .container a {
+   color: #DFBBAF;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-weight: 500;
+   font-size: 200%;
+   font-style: bold;
+   line-height: 85%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #DFBBAF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 160%;
+    margin: 20px;
+    margin-left: 20px;
+    float: right;
+    font-weight: 700;
+}
+
+.intro-espaces {
+    color: #26316A;
+    opacity: 80%;
+    text-align: right;
+}
+
+.intro-espaces h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 180%;
+    padding-bottom: 10px;
+}
+
+/* LOGO *************/
+.logo-tylte img {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 30vh;
+    height: 80%;
+}
+
+/* BOUTON ***************/
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s;
+    margin-bottom: 20px;
+}
+
+.btn-full {
+    background-color: #D98468;
+    color: #26316A;
+    margin-top: 20px;
+    font-size: 160%;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    opacity: 90%;
+}
+
+.btn-concept {
+    background-color: #26316A;
+    color: #D98468;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 160%;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bolder;
+    opacity: 90%;
+}
+
+.btn-full:hover {
+    background-color: #26316A !important;
+    color: #D98468 !important;
+}
+
+.btn-concept:hover {
+    background-color: #D98468 !important;
+    color: #26316A !important;
+}
+
+/* ESPACE BAR&JEUX ***************/
+
+#espace-bar {
+    background-color: #DFBBAF;
+}
+
+.desc-espace {
+    text-align: center;
+    margin: 30px;
+}
+
+.desc-espace h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #26316A;
+    font-weight: 600;
+    font-size: 250%;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.desc-espace p {
+    color: #26316A;
+    line-height: 30px;
+    font-size: large;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#desc-espace {
+    object-fit: cover;
+    width: 100%;
+}
+/* ESPACE SHOP ***************/
+
+#espace-shop {
+    background-color: #EEEFF3;
+    color: #DFBBAF;
+}
+
+/* FOOTER ***************/
+footer {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.details-marque img {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.details-contact {
+    color: #26316A;
+    margin-top: 30px;
+}
+
+.details-rs {
+    color: #26316A;
+    margin-top: 30px;
+}
+
+.icon-rs {
+    color: #26316A;
+}
+
+.icon-rs:hover {
+    color: #D98468;
+}
+
+/* MEDIA QUERIES ***/
+
+@media screen and (max-width: 950px) {
+    .logo-tylte img {
+        top: 40%;
+        height: 50%;
+}
+}
