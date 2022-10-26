@@ -47,7 +47,7 @@ section {
 
 /* HEADER *****************/
 header {
-    background-image: linear-gradient(rgba(205, 209, 228, 0.3), rgba(205, 209, 228, 0.3)), url("/images/test-header2.png");
+    background-image: linear-gradient(rgba(205, 209, 228, 0.3), rgba(205, 209, 228, 0.3)), url("./images/test-header2.png");
     height: 100vh;
     background-position: center;
     background-size: cover;
